@@ -961,7 +961,7 @@ section,
 
 .resume .resume-wrapper .resume-block h2 {
   font-size: 2rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 3rem;
   font-weight: 700;
 }
 
@@ -1002,18 +1002,20 @@ section,
 .resume .resume-wrapper .timeline .timeline-item .timeline-left {
   width: 20%;
   padding-right: 3rem;
+  margin-top: -4px;
 }
 
 .resume .resume-wrapper .timeline .timeline-item .timeline-left .company {
   color: var(--heading-color);
   font-weight: 600;
-  font-size: 1.1rem;
-  margin-bottom: 0.25rem;
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 
 .resume .resume-wrapper .timeline .timeline-item .timeline-left .period {
   color: var(--accent-color);
-  font-size: 0.9rem;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 .resume .resume-wrapper .timeline .timeline-item .timeline-dot {
@@ -1033,7 +1035,7 @@ section,
 }
 
 .resume .resume-wrapper .timeline .timeline-item .timeline-right .position {
-  color: var(--heading-color);
+  color: var(--accent-color);
   font-size: 1.2rem;
   margin-bottom: 0.6rem;
   font-weight: 600;
